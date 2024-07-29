@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
-import { LoginPage, RootPage } from "@/pages";
-import { Navbar } from "@/components";
+import { createBrowserRouter } from 'react-router-dom';
+import { LoginPage, RootPage } from '@/pages';
+import { Navbar } from '@/components';
 
 export const router = createBrowserRouter([
 	{
-		path: "/",
+		path: '/',
 		element: (
 			<>
 				<Navbar />
@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
 		),
 	},
 	{
-		path: "/login",
+		path: '/login',
 		element: (
 			<>
 				<Navbar />

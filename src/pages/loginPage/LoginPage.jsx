@@ -1,10 +1,10 @@
-import styles from "./LoginPage.module.scss";
-import { useForm } from "react-hook-form";
+import styles from './LoginPage.module.scss';
+import { useForm } from 'react-hook-form';
 
 export const LoginPage = () => {
-	const { register, handleSubmit } = useForm({ defaultValues: { email: "", password: "" } });
+	const { register, handleSubmit } = useForm({ defaultValues: { email: '', password: '' } });
 
-	const onSubmit = (data) => {
+	const onSubmit = data => {
 		console.log(data);
 	};
 
@@ -14,9 +14,9 @@ export const LoginPage = () => {
 			<div className={styles.form_text}>Please sing-in to your account and start the adventure</div>
 
 			<label>Email</label>
-			<input {...register("email")} type="email" placeholder="Enter your email or username" />
+			<input {...register('email')} type="email" placeholder="Enter your email or username" />
 			<label>Password</label>
-			<input {...register("password")} type="password" placeholder="Enter your password" />
+			<input {...register('password')} type="password" placeholder="Enter your password" />
 
 			<button type="submit">Login</button>
 			<div>
