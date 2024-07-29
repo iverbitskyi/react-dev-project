@@ -1,37 +1,37 @@
 .form {
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 10px;
-  background-color: #edeff0;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 10px;
+	background-color: #edeff0;
 
-  &_welcome {
-    text-align: left;
-    font-weight: bold;
-    font-size: 20px;
-  }
+	&_welcome {
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+	}
 
-  & input {
-    margin-bottom: 20px;
-    padding: 5px;
-    height: 25px;
-    background-color: transparent;
-    border: 1px solid rgb(65, 65, 209);;
-    border-radius: 5px;
-    color: black;
-  }
+	& input {
+		margin-bottom: 20px;
+		padding: 5px;
+		height: 25px;
+		background-color: transparent;
+		border: 1px solid rgb(65, 65, 209);
+		border-radius: 5px;
+		color: black;
+	}
 
-  & button {
-    background-color: rgb(65, 65, 209);
-    outline: none;
+	& button {
+		background-color: rgb(65, 65, 209);
+		outline: none;
 
-    &:hover {
-      background-color: rgb(83, 83, 221);
-    }
-  }
+		&:hover {
+			background-color: rgb(83, 83, 221);
+		}
+	}
 
-  & label {
-    text-align: left;
-  }
+	& label {
+		text-align: left;
+	}
 }
