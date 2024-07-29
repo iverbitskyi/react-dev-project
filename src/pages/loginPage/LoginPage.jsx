@@ -16,7 +16,7 @@ export const LoginPage = () => {
 			<label>Email</label>
 			<input {...register('email')} type="email" placeholder="Enter your email or username" />
 			<label>Password</label>
-			<input {...register('password')} type="password" placeholder="Enter your password" />
+			<input {...register('password')} required type="password" placeholder="Enter your password" />
 
 			<button type="submit">Login</button>
 			<div>
