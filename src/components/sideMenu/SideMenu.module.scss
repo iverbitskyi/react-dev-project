@@ -1,0 +1,10 @@
+.wrapper {
+	position: fixed;
+	// width: 50px;
+	height: 100vh;
+	background-color: aqua;
+	left: 0;
+	top: 50px;
+
+	transition: width ease-in-out 0.25s;
+}
