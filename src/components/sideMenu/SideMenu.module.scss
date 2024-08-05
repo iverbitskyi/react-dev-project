@@ -5,6 +5,32 @@
 	background-color: aqua;
 	left: 0;
 	top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
 
 	transition: width ease-in-out 0.25s;
+	&_button {
+		background-color: black;
+		height: 40px;
+		margin: 5px;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		gap: 5px;
+		padding: 0;
+
+		&_icon {
+			color: white;
+			width: 50px;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+	}
+
 }
+
