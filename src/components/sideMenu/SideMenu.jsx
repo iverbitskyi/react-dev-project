@@ -1,5 +1,5 @@
 import styles from './SideMenu.module.scss';
-import { LuAccessibility } from "react-icons/lu";
+import { LuAccessibility } from 'react-icons/lu';
 
 export const SideMenu = ({ isMenuOpen }) => {
 	return (
@@ -8,19 +8,19 @@ export const SideMenu = ({ isMenuOpen }) => {
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div style={{ display: !isMenuOpen && "none", width: "250px" }}>zalupa</div>
+				<div className={styles.wrapper_button_text}>zalupa</div>
 			</button>
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div style={{ display: !isMenuOpen && "none" }}>zalupa_bobra</div>
+				<div className={styles.wrapper_button_text}>zalupa_bobra</div>
 			</button>
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div style={{ display: !isMenuOpen && "none" }}>zalupa_root</div>
+				<div className={styles.wrapper_button_text}>zalupa_root</div>
 			</button>
 		</div>
 	);
