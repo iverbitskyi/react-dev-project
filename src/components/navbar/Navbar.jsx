@@ -3,7 +3,7 @@ import { SideMenu } from '../sideMenu/SideMenu';
 import styles from './Navbar.module.scss';
 import { CiMenuFries } from 'react-icons/ci';
 import { IoIosClose } from 'react-icons/io';
-import { FaUserCircle } from "react-icons/fa";
+import { FaUserCircle } from 'react-icons/fa';
 
 export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ export const Navbar = () => {
 				</button>
 				<div className={styles.wrapper_user}>
 					<span>User</span>
-					<FaUserCircle size={25} /> 
+					<FaUserCircle size={25} />
 				</div>
 			</div>
 
