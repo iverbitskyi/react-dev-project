@@ -8,19 +8,19 @@ export const SideMenu = ({ isMenuOpen }) => {
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div className={styles.wrapper_button_text}>zalupa</div>
+				<div className={styles.wrapper_button_text}>Home</div>
 			</button>
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div className={styles.wrapper_button_text}>zalupa_bobra</div>
+				<div className={styles.wrapper_button_text}>Page 1</div>
 			</button>
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
 					<LuAccessibility />
 				</div>
-				<div className={styles.wrapper_button_text}>zalupa_root</div>
+				<div className={styles.wrapper_button_text}>Page 2</div>
 			</button>
 		</div>
 	);
