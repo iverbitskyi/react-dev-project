@@ -9,7 +9,7 @@ export const SideMenu = ({ isMenuOpen }) => {
 	return (
 		<div className={`${styles.wrapper} bg-blue-300`} style={{ width: isMenuOpen ? '300px' : '50px' }}>
 			<Link to="/">
-				<button className={styles.wrapper_button}>
+				<button className={`${styles.wrapper_button} hover:bg-blue-100`}>
 					<div className={styles.wrapper_button_icon}>
 						<FaHome />
 					</div>
@@ -17,7 +17,7 @@ export const SideMenu = ({ isMenuOpen }) => {
 				</button>
 			</Link>
 			<Link to="/login">
-			<button className={styles.wrapper_button}>
+			<button className={`${styles.wrapper_button} hover:bg-blue-100`}>
 				<div className={styles.wrapper_button_icon}>
 					<MdOutlineLogin />
 				</div>
@@ -25,7 +25,7 @@ export const SideMenu = ({ isMenuOpen }) => {
 			</button>
 			</Link>
 			<Link to="/">
-			<button className={styles.wrapper_button}>
+			<button className={`${styles.wrapper_button} hover:bg-blue-100`}>
 				<div className={styles.wrapper_button_icon}>
 					<GiMonkey />
 				</div>

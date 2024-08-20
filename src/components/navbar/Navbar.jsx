@@ -15,8 +15,8 @@ export const Navbar = () => {
 	return (
 		<>
 			<div className={`${styles.wrapper} bg-neutral-800`}>
-				<button className={styles.wrapper_menu} onClick={handeMenuOpenChange}>
-					{isMenuOpen ? <IoIosClose /> : <CiMenuFries />}
+				<button className={`${styles.wrapper_menu} text-neutral-100`} onClick={handeMenuOpenChange}>
+					{isMenuOpen ? <IoIosClose size={25} /> : <CiMenuFries size={25} />}
 				</button>
 				<div className={styles.wrapper_user}>
 					<span>User</span>
