@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom';
-import { LuAccessibility } from 'react-icons/lu';
+import { FaHome } from "react-icons/fa";
+import { MdOutlineLogin } from "react-icons/md";
+import { GiMonkey } from "react-icons/gi";
 import styles from './SideMenu.module.scss';
 
 
 export const SideMenu = ({ isMenuOpen }) => {
 	return (
-		<div className={styles.wrapper} style={{ width: isMenuOpen ? '300px' : '50px' }}>
+		<div className={`${styles.wrapper} bg-blue-300`} style={{ width: isMenuOpen ? '300px' : '50px' }}>
 			<Link to="/">
 				<button className={styles.wrapper_button}>
 					<div className={styles.wrapper_button_icon}>
-						<LuAccessibility />
+						<FaHome />
 					</div>
 					<div className={styles.wrapper_button_text}>Home</div>
 				</button>
@@ -17,7 +19,7 @@ export const SideMenu = ({ isMenuOpen }) => {
 			<Link to="/login">
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
-					<LuAccessibility />
+					<MdOutlineLogin />
 				</div>
 				<div className={styles.wrapper_button_text}>Login</div>
 			</button>
@@ -25,7 +27,7 @@ export const SideMenu = ({ isMenuOpen }) => {
 			<Link to="/">
 			<button className={styles.wrapper_button}>
 				<div className={styles.wrapper_button_icon}>
-					<LuAccessibility />
+					<GiMonkey />
 				</div>
 				<div className={styles.wrapper_button_text}>Page 2</div>
 			</button>
